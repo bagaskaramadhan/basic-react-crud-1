@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.cards-product {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.card {
+  width: 18rem;
+  margin: 20px 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.button-count {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-create {
+  display: grid;
+}
+
+.input {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.add-product {
+  margin: 30px 30px 0 30px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.edit-delete {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.delete-icon {
+  margin-left: 5px;
+}
+
+.edit-icon {
+  margin-right: 5px;
+}
+
+.card-edit {
+  display: grid;
+  justify-content: center;
+  margin: 50px;
+}
+
+.input-edit{
+  display: grid;
+  margin-bottom: 20px;
+}
+.edit-content{
+  margin-bottom: 20px;
 }
